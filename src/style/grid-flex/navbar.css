@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.navbar__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.navbar__item button {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    row-gap: .4rem;
+}
